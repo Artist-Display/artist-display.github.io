@@ -2,11 +2,42 @@
 <html>
 <head>
     <title>Art Display</title>
-    <link href='css/bootstrap.css' rel='stylesheet' />
-    <link href='css/rotating-card.css' rel='stylesheet' />
+    <link href='css/bootstrap.css' rel='stylesheet'/>
+    <link href='css/rotating-card.css' rel='stylesheet'/>
 
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
 
+    <meta name="description" content="Mini art gallery">
+    <meta name="keywords" content="art">
+    <meta name="author" content="Riley Grigg">
+    <meta property="og:image" content="http://www.clipartbest.com/cliparts/ncB/Ebe/ncBEbe45i.jpg"/>
+    <meta http-equiv="refresh" content="60">
+    <!-- prevents images on page from being pinned to Pinterest -->
+    <meta name="pinterest" content="nopin"/>
+    <link rel="shortcut icon" href="http://www.clipartbest.com/cliparts/ncB/Ebe/ncBEbe45i.jpg"/>
+    
+    <!-- start of script to disable right clicking -->
+ -  <!-- script source: https://www.computerhope.com/j20.htm -->
+ -  <script>
+ -    var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+ -
+ -    if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+ -
+ -    function mischandler(){
+ -  return false;
+ -}
+ -
+ -    function mousehandler(e){
+ -      var myevent = (isNS) ? e : event;
+ -      var eventbutton = (isNS) ? myevent.which : myevent.button;
+ -      if((eventbutton==2)||(eventbutton==3)) return false;
+ -}
+ -    document.oncontextmenu = mischandler;
+ -    document.onmousedown = mousehandler;
+ -    document.onmouseup = mousehandler;
+ -  </script>
+ -  <!-- end of script to disable right clicking -->
+    
     <link href="https://use.fontawesome.com/0a4145f420.css" rel="stylesheet">
 
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>

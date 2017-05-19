@@ -114,6 +114,21 @@ body {
     width: 100%;
 }
 
+.card .art {
+	border-radius: 50%;
+	display: block;
+        height: 120px;
+        margin: -55px auto 0;
+        overflow: hidden;
+        width: 120px;
+}
+
+.card .art img {
+	 background: none repeat scroll 0 0 #FFFFFF;
+         border: 4px solid #FFFFFF;
+         width: 100%;
+}
+
 .card .content{
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;

@@ -29,7 +29,7 @@ video {
   display: inline-block;
 }
 
-.disable-selection {
+.disable-selection { /*disables text selection */
      -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* Internet Explorer */
    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
